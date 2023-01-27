@@ -2,7 +2,9 @@
 
 <br>
 
-* Registros dos estudos no minicamp XP Educação - Ciencia de Dados
+* Registros dos estudos no minicamp XP Educação - Ciencia de Dados:
+  
+-Programação Básica com JavaScript
 
 <br>
 
