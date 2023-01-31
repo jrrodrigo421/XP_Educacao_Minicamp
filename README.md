@@ -4,7 +4,17 @@
 
 * Registros dos estudos no minicamp XP Educação - Ciencia de Dados:
   
-- Programação Básica com JavaScript
+- Programação Básica com JavaScript:
+- 
+<br>
+    Variaveis;
+    Operadores;
+    Funcões;
+    Estruturas de Decisão;
+    Logica Booleana;
+    Listas;
+    Estruturas de Repetição;
+
 
 <br>
 
