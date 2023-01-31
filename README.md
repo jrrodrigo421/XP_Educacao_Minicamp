@@ -5,8 +5,9 @@
 * Registros dos estudos no minicamp XP Educação - Ciencia de Dados:
   
 - Programação Básica com JavaScript:
-- 
+
 <br>
+
     Variaveis;
     Operadores;
     Funcões;
