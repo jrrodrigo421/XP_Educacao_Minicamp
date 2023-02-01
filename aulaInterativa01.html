@@ -1,0 +1,32 @@
+<html>
+    <script>
+        // um numero primo é aquele que só é divisivel por 1 e por ele mesmo
+        // o numero 1 não considerado primo
+        function verificaNumeroPrimo(numero) {
+            var resultado = true
+
+            for (var i = 2; i < numero; i++) {
+                if (numero % i === 0) {
+                    resultado = false
+                    break
+                }
+
+            }
+            return resultado
+        }
+
+
+        function primosMenoresQue(numero) {
+            var primos = []
+
+            for (var i = 2; i < numero; i++) {
+                if (verificaNumeroPrimo(i)) {
+                    primos.push(i)
+                }
+            }
+            return primos    
+        }
+        
+        
+    </script>
+</html>
