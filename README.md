@@ -24,7 +24,7 @@
 
     Modulo2:
 
-    [...]
+    HTML - Conceitos, projeto base [...]
 
 <br>
 
