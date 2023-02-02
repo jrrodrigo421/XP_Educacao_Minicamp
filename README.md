@@ -25,6 +25,8 @@
     Modulo2:
 
     HTML - Conceitos, projeto base [...]
+    CSS - Estilização
+    JavaScript - DOM
 
 <br>
 
