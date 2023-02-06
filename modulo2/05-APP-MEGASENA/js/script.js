@@ -240,5 +240,4 @@ function randomGame() {
   console.log(state.currentGame);
   render();
 }
-
 start();
