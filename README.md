@@ -26,7 +26,8 @@
 
     HTML - Conceitos, projeto base [...]
     CSS - Estilização
-    JavaScript - DOM
+    JavaScript - DOM, Local Storage [...]
+    Netfly - Deploy de APPs simples na WEB
 
 <br>
 
