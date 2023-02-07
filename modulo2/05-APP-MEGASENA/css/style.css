@@ -1,5 +1,10 @@
+head {
+  text-align: center;
+  font-size: 1000px;
+}
+
 body {
-  padding: 20px;
+  padding: 10px;
   font-family: Arial, Helvetica, sans-serif;
   background-color: blueviolet;
 }
@@ -20,7 +25,7 @@ button {
 
 .number {
   display: inline-block;
-  margin: 10px;
+  margin: 35px;
   border: 1px solid gray;
   width: 25px;
   border-radius: 100%;
