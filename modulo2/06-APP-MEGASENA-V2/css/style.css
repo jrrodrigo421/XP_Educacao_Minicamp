@@ -2,18 +2,15 @@ header {
   text-align: center;
   font-size: 15px;
 }
-
 body {
   padding: 10px;
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(6, 133, 55);
 }
-
 button {
   cursor: pointer;
   margin: 5px;
 }
-
 .numbers {
   border: 1px solid gray;
   padding: 10px;
@@ -22,7 +19,6 @@ button {
   font-size: 20px;
   text-align: center;
 }
-
 .number {
   display: inline-block;
   margin: 35px;
@@ -33,7 +29,6 @@ button {
   user-select: none;
   cursor: pointer;
 }
-
 .selected-number {
   background-color: lightgreen;
 }

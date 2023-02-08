@@ -1,8 +1,6 @@
 // teste conexao js
 // console.log('teste no console');
-
 // Testes das funcoes
-
 // // console.log('start');
 // addNumberToGame(1);
 // addNumberToGame(2);
@@ -29,7 +27,6 @@
 // var savedGames = [];
 
 // ou:
-
 var state = { board: [], currentGame: [], savedGame: [] };
 
 function start() {
