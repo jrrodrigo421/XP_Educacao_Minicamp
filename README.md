@@ -31,7 +31,7 @@
 
 <br>
 
-_links dos projetos Executaveis:_
+_links dos APPS Executaveis:_
 
 <a href="https://calculate-imc-xp.netlify.app/" style="color: green;">CALCULADORA-IMC</a>
 <br>
