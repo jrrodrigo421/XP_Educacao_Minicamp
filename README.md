@@ -33,9 +33,9 @@
 
 _links dos projetos Executaveis:_
 
-<a href="https://calculate-imc-xp.netlify.app/" style="color: greenyellow;">CALCULADORA-IMC</a>
+<a href="https://calculate-imc-xp.netlify.app/" style="color: green;">CALCULADORA-IMC</a>
 <br>
-<a href="https://mega-sena-local-storage.netlify.app/" style="color: greenyellow;">MEGA-SENA-V2</a>
+<a href="https://mega-sena-local-storage.netlify.app/" style="color: green;">MEGA-SENA-V2</a>
 <br>
 
 <img src="/img/img.png" alt="My cool logo"/>
