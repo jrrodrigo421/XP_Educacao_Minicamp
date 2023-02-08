@@ -1,18 +1,12 @@
 // console.log('teste no console');
 
 function start() {
-  // console.log('start');
   var buttonCalculateImc = document.querySelector('#button-calculate-imc');
-  // console.log(buttonCalculateImc);
-  // buttonCalculateImc.textContent = 'Modifiquei  ';
-
   buttonCalculateImc.addEventListener('click', handleButtonClick);
-
   var inputWeight = document.querySelector('#input-weight');
   var inputheight = document.querySelector('#input-height');
   inputWeight.addEventListener('input', handleButtonClick);
   inputheight.addEventListener('input', handleButtonClick);
-
   handleButtonClick();
 }
 

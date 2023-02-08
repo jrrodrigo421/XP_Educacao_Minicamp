@@ -9,6 +9,13 @@ uma caixa de alerta para o usuário com uma informação qualquer. -->
   </script>
 </html> -->
 
+
+
+
+
+
+
+
 <!-- 2. Apresentando mensagens de alerta pressionando botão:
 
 Faça um programa em JavaScript em que o usuário clicará com 
@@ -28,6 +35,12 @@ será apresentada com uma mensagem qualquer. -->
   </script>
 </html> -->
 
+
+
+
+
+
+
 <!-- 
 3. Receber 3 números e informar qual é o maior e o menor:
 
@@ -36,78 +49,94 @@ pelo usuário e em seguida apresente uma mensagem de alerta
 informando qual é o maior número dentre 
 os números informados. -->
 
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Qual e o maior numero</title>
+    <title>Qual e o maior numero:</title>
   </head>
   <header>
-    <h1>Qual e o maior numero</h1>
+    <h1>Qual e o maior numero:</h1>
     <body>
       <div>
         <br> 
-          <input id="num1" type="text" />Digite um numero
+          <input id="num1" type="number" />Digite um numero
         </br>
         <br> 
-          <input id="num2" type="text" />Digite um numero
+          <input id="num2" type="number" />Digite um numero
         </br>
         <br> 
-          <input id="num3" type="text" />Digite um numero
+          <input id="num3" type="number" />Digite um numero
         </br>
         <br>
           <button id="buttooon">Verificar</button>
         </br>
+        <!-- <p>
+          O maior numero é  <strong id="verifica-numero"></strong>
+        </p> -->
         </div>
       <script>
-        var primeiro = Number(document.querySelector('#num1'))
-        var segundo = Number(document.querySelector('#num2'))
-        var terceiro = Number(document.querySelector('#num3'))
+        
         // console.log(primeiro)
         // console.log(segundo)
         // console.log(terceiro)
 
         function start() {
+
           var botaoVerifica = document.querySelector('#buttooon')
           botaoVerifica.addEventListener('click', escutaBotao)
-          escutaBotao() 
-          verifica()
-        }
-        function verifica() {
-          var nume1 = Number(primeiro.document.querySelector('#num1'))
-          var nume2 = Number(segundo.document.querySelector('#num2'))
-          var nume3 = Number(terceiro.document.querySelector('#num3'))
-            if ((nume1 > nume2) && (nume1 >nume3)) {
-              alert('O Primeiro numero inserido é maior')
-              return
-            }
-            if ((nume2 > nume1) && (nume2 > nume3)) {
-              alert('O Segundo numero inserido é maior')
-              return
-            }
-            if ((nume3 > nume2) && (nume3 > nume1)) {
-              alert('O Terceiro numero inserido é maior')
-              return
-            }
-        }  
-        function botao() {
-          // var botaoVerifica = document.querySelector('#buttooon')
-          // botaoVerifica.addEventListener('click', escutaBotao)
-          return
-        }
-        function escutaBotao() {
-          // console.log('teste')
+
+          var primeiro = document.querySelector('#num1')
+          var segundo = document.querySelector('#num2')
+          var terceiro =document.querySelector('#num3')
+          primeiro.addEventListener('input', escutaBotao)
+          segundo.addEventListener('input', escutaBotao)
+          terceiro.addEventListener('input', escutaBotao)
           
+          escutaBotao() 
+
         }
+        function verifica(primeiro, segundo, terceiro) {
+          // var primeiro = Number(document.querySelector('#num1'))
+          // var segundo = Number(document.querySelector('#num2'))
+          // var terceiro = Number(document.querySelector('#num3'))
+          
+          if ((primeiro > segundo) && (primeiro > terceiro)) {
+            alert('O Primeiro numero inserido é maior')
+            return
+          }
+          if ((segundo > primeiro) && (segundo > terceiro)) {
+            alert('O Segundo numero inserido é maior')
+            return
+          }
+          if ((terceiro > segundo) && (terceiro > primeiro)) {
+            alert('O Terceiro numero inserido é maior')
+            return
+          }
+        }  
+        function escutaBotao() {
+          var primeiro = document.querySelector('#num1')
+          var segundo = document.querySelector('#num2')
+          var terceiro = document.querySelector('#num3')
+          var verificaNumero = document.querySelector('#verifica-numero')
+          var numero1 = Number(primeiro.value)
+          var numero2 = Number(segundo.value)
+          var numero3 = Number(terceiro.value)
+          var verificando = verifica(numero1, numero2, numero3)
+          return
+          
+        }  
         start()
       </script>
     </body>
 </html>
- -->
 
-<!DOCTYPE html>
+
+
+
+<!-- <!DOCTYPE html>
 <html>
   <head>
     <title>JavaScript Exercício</title>
@@ -128,4 +157,4 @@ os números informados. -->
   <body>
     <h1>Exercício 03</h1>
   </body>
-</html>
+</html> -->
