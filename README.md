@@ -2,7 +2,7 @@
 
 <br>
 
-<img src="/img/img.png" width="100" height="50" alt="My cool logo" width: />
+<img src="/img/img.png" width="200" height="100" alt="My cool logo"/>
 
 <br>
 
@@ -38,7 +38,6 @@
 _links dos APPS Executaveis:_
 
 <a href="calculadora-imc-xp.netlify.app" style="color: green;">CALCULADORA-IMC</a>
-
 <br>
 <img src="/img/imc.png" alt="My cool logo"/>
 <br>
