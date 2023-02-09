@@ -34,6 +34,8 @@
 _links dos APPS Executaveis:_
 
 <a href="calculadora-imc-xp.netlify.app" style="color: green;">CALCULADORA-IMC</a>
+<br>
+<br>
 <img src="/img/imc.png" alt="My cool logo"/>
 <br>
 <a href="https://mega-sena-local-storage.netlify.app/" style="color: green;">MEGA-SENA-V2</a>
