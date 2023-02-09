@@ -37,7 +37,6 @@ _links dos APPS Executaveis:_
 <br>
 <a href="https://mega-sena-local-storage.netlify.app/" style="color: green;">MEGA-SENA-V2</a>
 <br>
-<br>
 <a href="https://super-calculadora-xp.netlify.app/" style="color: green;">SUPER CALCULATOR</a>
 <br>
 
