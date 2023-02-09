@@ -1,0 +1,51 @@
+.titulo {
+  font-size: 40px;
+  color: greenyellow;
+}
+
+body {
+  background-color: rgb(18, 17, 18);
+}
+
+.calculator {
+  margin: 0 auto;
+  padding: 30px;
+  border: 5px solid greenyellow;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+input[type='number'] {
+  width: 70%;
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 5px;
+  border: 1px solid greenyellow;
+  box-sizing: border-box;
+  font-size: 20px;
+  text-align: right;
+}
+
+input::-webkit-input-placeholder {
+  text-align: center;
+  vertical-align: middle;
+}
+
+button {
+  width: 70%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 3px solid rgb(10, 10, 10);
+  box-sizing: border-box;
+  font-size: 25px;
+  background-color: greenyellow;
+  cursor: pointer;
+}
+
+.result {
+  margin: 20px 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: blueviolet;
+}
