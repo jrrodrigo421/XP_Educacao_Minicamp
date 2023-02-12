@@ -1,0 +1,42 @@
+<!-- Faça um programa JavaScript em que o usuário informará sua 
+altura e peso e o programa calculará o seu IMC.
+
+Utilize as TAGs: <input>, <button>, e <div> em sua página. 
+Use a <div> com um identificador e apresente nela 
+o resultado do cálculo do IMC. -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IMC</title>
+</head>
+<body>
+
+  <h1>Exercício 06</h1>
+    <label for="altura">Altura (cm): </label>
+    <input id="altura" type="number" min="100" max="250"><br>
+    <label for="peso">Peso (kg): </label>
+    <input id="peso" type="number" min="0" max="250"><br>
+    <button onclick="calcularIMC()">Calcular o IMC</button>
+    <div id="resultadoIMC"></div>
+    <div id="extra">
+      <pre>
+        
+***************************************************************
+|    IMC          |          CATEGORIA                        |
+|-------------------------------------------------------------|
+| Até 18,5        |  Abaixo do peso                           |
+| De  18,5 - 24,9 |  Saudável                                 |
+| De  25,0 - 29,9 |  Sobrepeso                                |
+| De  30,0 - 39,9 |  Obeso                                    |
+| Acima de 40     |  Extremo ou alto risco de obesidade       |
+***************************************************************
+      </pre>
+
+  <script src="./script.js"></script>
+  
+</body>
+</html>
