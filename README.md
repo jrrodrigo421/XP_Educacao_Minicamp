@@ -8,7 +8,7 @@
 
 - Registros dos estudos no minicamp XP Educação - Ciencia de Dados:
 
-* Programação Básica com JavaScript:
+* **Lógica de Programação com JavaScript:**
 
 <br>
 
